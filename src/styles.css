@@ -1,0 +1,148 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap");
+
+@font-face {
+    font-family: Anurati;
+    src: url("./Anurati-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BoteraStencil;
+    src: url("./Botera-RegularStencil.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Potra;
+    src: url("./Potra.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #e6eaf5 0%, #f6f6f6 80%);
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMwLjUgMTZDMzAuNSAyNC4wMDgxIDI0LjAwODEgMzAuNSAxNiAzMC41QzcuOTkxODcgMzAuNSAxLjUgMjQuMDA4MSAxLjUgMTZDMS41IDcuOTkxODcgNy45OTE4NyAxLjUgMTYgMS41QzI0LjAwODEgMS41IDMwLjUgNy45OTE4NyAzMC41IDE2WiIgc3Ryb2tlPSJibGFjayIvPgo8cGF0aCBkPSJNNiA5QzcuNjU2ODUgOSA5IDcuNjU2ODUgOSA2QzkgNC4zNDMxNSA3LjY1Njg1IDMgNiAzQzQuMzQzMTUgMyAzIDQuMzQzMTUgMyA2QzMgNy42NTY4NSA0LjM0MzE1IDkgNiA5WiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg=="),
+    auto;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: "Inter var", sans-serif;
+
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  padding-right: 10px;
+  cursor: pointer;
+  pointer-events: all;
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+@media screen and (max-width: 568px) {
+  .full {
+    visibility: hidden;
+    display: none;
+  }
+
+  footer {
+    padding-left: 2px;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.scontent{
+    font-size: 10px;
+}
+
+}
+
+li:hover{
+    cursor: pointer;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+  }
+  
+  footer li {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  
+
+.aboutPopup {
+      
+}
+
+.hheader{
+    font-size: 10vw;
+    font-family: "Potra";
+}
+
+.ccontent {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 28px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.lcontent {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.scontent {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 14px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.backButton {
+    font-size: 20px;
+}
+
+.background {
+    text-align: center;
+    font-family: "Inter var", sans-serif;
+}
+
+/* visibility: hidden; */
+
+.popups {
+    visibility: show;
+}
+
+#contact {
+  color: black;
+}
