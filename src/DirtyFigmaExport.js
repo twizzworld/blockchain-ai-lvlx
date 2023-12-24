@@ -51,7 +51,7 @@ export function Overlay() {
               whiteSpace: "nowrap",
               visibility: "visible",
             }}>
-            ON-CHAIN ORDERBOOK &nbsp; ● &nbsp; ADVANCED ORDER TYPES &nbsp; ● &nbsp; PERPETUALS &nbsp; ● &nbsp; API & SDK
+            FULLY ON-CHAIN ORDERBOOK &nbsp; ● &nbsp; ADVANCED ORDER TYPES &nbsp; ● &nbsp; PERPETUALS &nbsp; ● &nbsp; API & SDK
           </p>
         </div>
         
@@ -95,8 +95,8 @@ export function Overlay() {
                     flexDirection: "column",
                 }}>
             <div>
-              <div class="hheader">HFTDEX</div>
-               <div style={{fontFamily: "Anurati", fontSize: "24px"}}>BY MOMENTUM MARKETS</div> 
+              <div class="hheader">MOMENTUM MARKETS</div>
+               <div style={{fontFamily: "Anurati", fontSize: "24px"}}>HIGH FREQUENCY TRADING BROUGHT TO BLOCKCHAIN</div> 
             </div>
             </div>
         </div>
