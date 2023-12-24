@@ -31,7 +31,7 @@ export function Overlay() {
             <br />
           </p>
           <div style={{ flex: "1 1 0%", display: "flex", gap: "2em" }}></div>
-          <p style={{ flex: "1 1 0%", height: 30, fontSize: 30, lineHeight: "30px", textAlign: "right", color: "black" , fontFamily: "Potra",}}>X</p>
+          <p style={{ flex: "1 1 0%", height: 30, fontSize: 30, lineHeight: "30px", textAlign: "right", color: "black" , fontFamily: "Anurati",}}>X</p>
         </div>
         <div style={{ height: 20 }} />
         <div style={{ width: "100%", padding: 0, display: "inline-flex", flexDirection: "row", alignItems: "flex-start", justifyContent: "center" }}>
@@ -96,7 +96,7 @@ export function Overlay() {
                 }}>
             <div>
               <div class="hheader">MOMENTUM MARKETS</div>
-               <div style={{fontFamily: "Anurati", fontSize: "24px"}}>HIGH FREQUENCY TRADING BROUGHT TO BLOCKCHAIN</div> 
+               <div style={{fontFamily: "Potra", fontSize: "24px"}}>HIGH FREQUENCY TRADING BROUGHT TO BLOCKCHAIN</div> 
             </div>
             </div>
         </div>
