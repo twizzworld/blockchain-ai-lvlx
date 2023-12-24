@@ -61,7 +61,7 @@ export function Overlay() {
 
       <footer style={{ position: "absolute", bottom: 40, right: 40, display: "flex", flexDirection: "row"}}>
         <ul style={{ flex: "1 1 0%", fontSize: 12, lineHeight: "1em", textAlign: "right"}}>
-          <li><a href='mailto:numinousmuses@gmail.com' id="contact">contact</a></li>
+          <li><a href='mailto:momentum.lab@proton.me' id="contact">contact</a></li>
           
         </ul>
     
