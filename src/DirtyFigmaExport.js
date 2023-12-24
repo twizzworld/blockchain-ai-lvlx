@@ -51,7 +51,7 @@ export function Overlay() {
               whiteSpace: "nowrap",
               visibility: "visible",
             }}>
-            ON-CHAIN INFERENCE &nbsp; ● &nbsp; DECENTRALIZED COMPUTE &nbsp; ● &nbsp; DECENTRALIZED API HOSTING &nbsp; ● &nbsp; ML DAO + SUBDAOS
+            ON-CHAIN ORDERBOOK &nbsp; ● &nbsp; ADVANCED ORDER TYPES &nbsp; ● &nbsp; PERPETUALS &nbsp; ● &nbsp; API & SDK
           </p>
         </div>
         
@@ -95,8 +95,8 @@ export function Overlay() {
                     flexDirection: "column",
                 }}>
             <div>
-              <div class="hheader">BLOCKCHAIN X AI</div>
-               <div style={{fontFamily: "Anurati", fontSize: "24px"}}>LVLX</div> 
+              <div class="hheader">HFTDEX</div>
+               <div style={{fontFamily: "Anurati", fontSize: "24px"}}>BY MOMENTUM MARKETS</div> 
             </div>
             </div>
         </div>
